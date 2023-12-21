@@ -1,9 +1,9 @@
 {
     "name": "dexter/hexlet-tests",
     "autoload": {
-        "psr-4": {
-            "Dexter\\HexletTests\\": "src/"
-        }
+        "files": [
+            "src/StringUtils.php"
+        ]
     },
     "authors": [
         {
@@ -11,5 +11,7 @@
             "email": "misch.zimowin2013@mail.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "webmozart/assert": "^1.11"
+    }
 }
