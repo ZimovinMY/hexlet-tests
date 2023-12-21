@@ -1,0 +1,15 @@
+{
+    "name": "dexter/hexlet-tests",
+    "autoload": {
+        "psr-4": {
+            "Dexter\\HexletTests\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ZimovinMY",
+            "email": "misch.zimowin2013@mail.ru"
+        }
+    ],
+    "require": {}
+}
